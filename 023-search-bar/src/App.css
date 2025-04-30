@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  /* margin: 30px; */
+}
+
+.search-input {
+  width: 500px;
+  padding: 10px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  font-size: medium;
+}
+.results-container {
+  width: 500px;
+  padding: 10px;
+  margin: auto;
+  border: 1px solid black;
+  max-height: 500px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  text-align: left;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.results {
+  display: block;
+  padding: 5px;
+}
+.results:hover {
+  background-color: gray;
+  cursor: pointer;
+}
